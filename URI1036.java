@@ -22,8 +22,8 @@ public class URI1036{
         b = teclado.nextDouble();
         c = teclado.nextDouble();
         delta = (Math.pow(b,2) - (4 * a * c));
-        System.out.println(delta);
-        if (delta >= 0){
+        // System.out.println(delta);
+        if (delta >= 0 && a != 0){
             R1 = (-b + Math.sqrt(delta))/(2*a);
             R2 = (-b - Math.sqrt(delta))/(2*a);
             System.out.printf("R1 = %.5f\n", R1);
